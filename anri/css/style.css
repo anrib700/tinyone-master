@@ -1,0 +1,449 @@
+.wrapper{
+	height:100%;
+	width:960px;
+	margin:auto;
+}
+header	{
+	max-width:100%;
+	height:740px;
+	overflow:hidden;
+	/*background-color:#fcdb00;
+	text-align:center; 
+}
+
+header img {
+	width:146px;
+	height:40px;
+	margin-top:30px;
+}
+
+header  .header-content {
+	padding-top:150px;
+	text-align: center;
+}
+
+header .header-content h1 {
+	font-size:45px;
+}
+
+header .header-content p {
+	font-size: 21px;
+	padding-top:0.40em 7em;
+	
+}
+*/
+}
+.mx-nav{
+	width:100%;
+	max-width:960px;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+}
+.on-scroll-header{
+  	position:fixed;
+  	z-index:9999;
+  	top:0;
+  	left:0;
+  	margin:auto;
+  	padding:20px 0 20px 0 !important;
+  	border-bottom:2px solid black;
+}
+.slidepageone{
+	height:740px;
+	background:#fcdb00;
+}
+.img2{
+	height:605px;
+	width:100%;
+	background:url(../images/s1.jpg)center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.img3{
+	height:605px;
+	width:100%;
+	background:url(../images/s2.jpg)center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.img4{
+	height:605px;
+	width:100%;
+	background:url(../images/s3.jpg)center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.nav{
+	padding:20px 0 20px 0;
+	background:#fcdb00;
+	width:100%;
+}
+.logo{
+	height:50px;
+}
+.navmenu{
+	font-size:22px;
+	font-weight:bold;
+}
+.navmenu ul{
+	display:flex;
+	line-height:50px;
+}
+.navmenu ul li:not(:last-child){
+	margin-right:75px;
+}
+.fortwodivs{
+	display:flex;
+	height:640px;
+	width:100%;
+}
+.fortwodivs1{
+	padding-top:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:640px;
+	width:100%;
+}
+.fortwodivs2{
+	padding-top:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:640px;
+	width:100%;
+}
+.fordivone{
+	padding-top:135px;
+	height:100%;
+	width:390px;
+}
+.fordivone h1{
+	font-size:32px;
+	margin-bottom:20px;
+}
+.fordivone span{
+	font-size:20px;
+	color:#313841;
+}
+.fordivone p{
+	font-size:16px;
+	color:#555555;
+	margin:20px 0 20px 0;
+}
+.fordivtwo{
+	padding-top:60px;
+	height:100%;
+	width:calc(100% - 390px);
+}
+.fordivtwo img{
+	margin-left:190px;
+}
+main {
+	height:auto;
+	background:#fcdb00;
+	transition:1s;
+}
+
+main .main-content {
+	text-align: center;
+	padding-top:90px;
+	
+}
+
+main .main-content h1 {
+	font-size: 35px;
+	padding: 0.50em 7em;
+}
+
+
+main .main-content p {
+	padding: 0.50em 7em;
+	padding-bottom:80px;
+	color:#313841;
+	font-size:18px;
+}
+
+main .main-content .first-column {
+	display:block;
+	width:100px;
+}
+
+
+main .main-content .first-column p {
+	width:100px;
+}
+
+
+main .mid-menu-row {
+	width:100%;
+	margin:0 auto;
+	margin-bottom:80px;
+	display: flex;
+	flex-wrap:wrap;
+}
+.firs-column-row{
+	display:flex;
+	flex-wrap:wrap;
+	width:320px;
+	height:200px;
+}
+.firs-column-row span{
+ 	color:#010101;
+ 	font-size:22px;
+}
+.firs-column-row p {
+	font-size:16px;
+	color:#898989;
+}
+.firs-column-row-icon{
+	width:90px;
+	height:200px;
+}
+.firs-column-row-info{
+	height:200px;
+	width:210px;
+}
+main .mid-menu-row .element-one {
+	padding-top:60px;
+}
+
+
+main .mid-menu-row .element-one h3 {
+	margin-bottom:7px;
+}
+
+main .mid-menu-row .element-one h3 a {
+	
+	color:black;
+}
+
+
+main .mid-menu-row .element-one li h3 a:hover{
+	color:#fcdb00;
+	transition:1s;
+}
+
+main .mid-menu-row .element-one li p {
+	color:#c1c1c1;
+}
+.w3-content{
+    height:605px;
+}
+
+/*      */
+
+main .mid-menu-row .element-two {
+	padding-top:60px;
+}
+
+
+main .mid-menu-row .element-two h3 {
+	margin-bottom:7px;
+}
+
+main .mid-menu-row .element-two h3 a {
+	
+	color:black;
+}
+
+
+main .mid-menu-row .element-two li h3 a:hover{
+	color:#fcdb00;
+	transition:1s;
+}
+
+main .mid-menu-row .element-two li p {
+	color:#c1c1c1;
+}
+
+
+
+footer {
+	text-align: center;
+	height:650px;
+	background:#fcdb00;
+	transition:1s;
+}
+
+footer h1 {
+	padding-top:60px;
+	color:#fcdb00;
+}
+
+footer p {
+	padding-top:10px;
+	font-size: 18px;
+	line-height: 30px;
+	color:#888;
+}
+
+
+
+footer input {
+	margin-top:25px;
+	width:580px;
+	height:40px;
+	border:1px solid black;
+	border-radius:5px;
+	background-color:white;
+	outline-color: black;
+	padding:0 0 0 15px;
+	text-align:left;
+	font-size: 14px;
+	font-weight: bold;
+	color:black;
+}
+
+footer .button {
+	font-weight: bold;
+	outline-color: black;
+	font-size: 13px;
+	width:80px;
+	height:42px;
+	background-color:#fcdb00;
+	border:1px solid black;
+	border-radius:3px;
+}
+
+footer .button:hover {
+	background-color:#888;
+	color:white;
+}
+
+footer .bottom-menu-row {
+	line-height: 25px;
+	padding-top:125px;
+	max-width:960px;
+	display: flex;
+	margin-left: auto;
+	margin-right:auto;
+	justify-content: space-between;
+	color:white;
+}
+
+footer .bottom-menu-row .one{
+	color:#fff;
+	
+}
+
+footer a{
+	color:white;
+}
+
+footer .column a:hover{
+	color:#fcdb00;
+}
+
+
+footer .copyright {
+	padding-top:50px;
+	color:white;
+	display: flex;
+	justify-content: center;
+}
+
+
+footer .copyright a:hover {
+	color:#fcdb00;
+	transition:1s;
+}
+
+
+
+/* Slider */
+
+.mySlides {
+	display:none
+}
+
+.w3-left, .w3-right {
+	cursor:pointer;
+	color:black;
+	position:absolute;
+}
+
+.w3-left {
+	position:absolute;
+	left:10%;
+	font-size:30px;
+	top:400px;
+
+}
+
+.w3-right {
+	position:absolute;
+	left:90%;
+	font-size:30px;
+	top:400px;
+
+}
+
+
+/* End of slide */
+
+/*
+</div>
+<h1>Inspire your inspiration</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique <br /> bibendum. Donec rutrum sed sem quis venenatis.  </p>
+</div>
+*/
+
+/* Responsive */
+@media screen and (max-width:1000px){
+	main .mid-menu-row{
+		width:640px;
+	}
+	.wrapper{
+		width:100%;
+	}
+	.dspn{
+		display:none;
+	}
+	.fordivtwo{
+		display:none;
+	}
+	.fordivone{
+		margin-left: 15px;
+	}
+}
+@media screen and (max-width:650px){
+	main .mid-menu-row{
+		width:100%;
+	}
+}
+@media screen and (max-width:600px){
+	.wrapper{
+		width:100%;
+	}
+	.mid-menu-row{
+		flex-direction:column;
+	}
+	.second-column{
+		display:none;
+	}
+	main .main-content  h1{
+		padding:0 10px 0 10px;
+	}
+	main .main-content p{
+		padding:0 10px 80px 10px;
+	}
+	footer .bottom-menu-row{
+		flex-direction:column-reverse;
+	}
+	footer{
+		height:100%;
+	}
+	footer input{
+		width:100%;
+	}
+	.firs-column-row{
+		width:100%;
+		padding-left:15px;
+	}
+	.firs-column-row-icon{
+		display:none;
+	}
+
+}
